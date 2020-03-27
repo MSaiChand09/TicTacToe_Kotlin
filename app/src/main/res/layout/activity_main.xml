@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tacimage"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="35sp"
+            android:textStyle="italic"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:background="@drawable/corners"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Choose Gaming Option  "
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#E9EDF1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/singleplayer"
+        android:text="Single Player Mode"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:background="#A8C94D"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiplayer"
+        android:layout_margin="10dp"
+        android:text="Multi Player Mode"
+        android:background="#BE943A"
+        android:textSize="20sp"
+        />
+    </LinearLayout>
+</LinearLayout>
